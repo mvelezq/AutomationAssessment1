@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
+using static AutomationAssessment1.Constants;
 
 namespace AutomationAssessment1
 {
@@ -11,17 +12,16 @@ namespace AutomationAssessment1
         {
             PropertiesCollection.driver = new FirefoxDriver();
             PropertiesCollection.driver.Navigate().GoToUrl("http://localhost/index.html");
-            PropertiesCollection.driver.Manage().Window.Maximize();
-            
+            PropertiesCollection.driver.Manage().Window.Maximize();       
         }
 
         [Test]
         public void Test1()
         {
             SearchMethods pageMethods = new SearchMethods();
-            pageMethods.SearchResult("Library Page","Tittle");
-            pageMethods.SearchBar("Learning Selenium WebDriver in C#");
-            pageMethods.SearchResult("Learning Selenium WebDriver in C#", "BookTittle");
+            pageMethods.SearchResult(tittlePage,tittleType);
+            pageMethods.SearchBar(tittleBook);
+            pageMethods.SearchResult(tittleBook,bookType);
 
         }
 
@@ -29,9 +29,9 @@ namespace AutomationAssessment1
         public void Test2()
         {
             SearchMethods pageMethods = new SearchMethods();
-            pageMethods.SearchResult("Library Page", "Tittle");
-            pageMethods.SearchBar("Author: Stephen Hawking");
-            pageMethods.SearchResult("Author: Stephen Hawking", "BookAutor");
+            pageMethods.SearchResult(tittlePage, tittleType);
+            pageMethods.SearchBar(authorBook);
+            pageMethods.SearchResult(authorBook, authorType);
 
         }
 

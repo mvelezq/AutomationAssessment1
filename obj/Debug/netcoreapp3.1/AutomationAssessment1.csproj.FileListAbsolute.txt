@@ -91,3 +91,6 @@ C:\Users\1581415\Miguel Velez\Personal\Automatizacion\C#\PruebaNUnit\AutomationA
 C:\Users\1581415\Miguel Velez\Personal\Automatizacion\C#\PruebaNUnit\AutomationAssessment1\obj\Debug\netcoreapp3.1\AutomationAssessment1.csproj.CopyComplete
 C:\Users\1581415\Miguel Velez\Personal\Automatizacion\C#\PruebaNUnit\AutomationAssessment1\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\1581415\Miguel Velez\Personal\Automatizacion\C#\PruebaNUnit\AutomationAssessment1\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+C:\Users\1581415\Miguel Velez\Personal\Automatizacion\C#\PruebaNUnit\AutomationAssessment1\bin\Debug\netcoreapp3.1\AutomationAssessment1.pdb
+C:\Users\1581415\Miguel Velez\Personal\Automatizacion\C#\PruebaNUnit\AutomationAssessment1\obj\Debug\netcoreapp3.1\AutomationAssessment1.dll
+C:\Users\1581415\Miguel Velez\Personal\Automatizacion\C#\PruebaNUnit\AutomationAssessment1\obj\Debug\netcoreapp3.1\AutomationAssessment1.pdb

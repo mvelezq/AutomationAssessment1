@@ -4,14 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace AutomationAssessment1
-{
-
-    enum{
-        Library Page,
-        Learning Selenium WebDriver in C#,
-
-    }
-    class PropertiesCollection
+{   class PropertiesCollection
     {
         public static IWebDriver driver { get; set; }
 
